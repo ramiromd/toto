@@ -1,6 +1,5 @@
 import { Currency } from "./currency";
 import { dinero, Dinero } from 'dinero.js';
-import { USD, ARS } from 'dinero.js/currencies';
 
 export class Amount
 {
