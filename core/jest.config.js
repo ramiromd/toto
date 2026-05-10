@@ -10,9 +10,9 @@ module.exports = {
     ...tsJestTransformCfg,
   },
   roots: ["<rootDir>/tests"],
-  testMatch: ["**/*.test.ts"],
+  testMatch: ["**/*.spec.ts"],
   transform: {
-    '^.+\\.ts$': 'ts-jest',
+    '^.+\\.ts$': ['ts-jest', { tsconfig: 'tsconfig.test.json' }],
   },
   clearMocks: true,
 };
