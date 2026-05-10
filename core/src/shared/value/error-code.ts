@@ -1,0 +1,7 @@
+export enum ErrorCode
+{
+    TOO_SHORT = "TOO_SHORT",
+    TOO_LONG = "TOO_LONG",
+    INVALID_FORMAT = "INVALID_FORMAT",
+    INVALID_VALUE = "INVALID_VALUE",
+}
