@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",           /* Versión de JS a la que se compila */
+    "module": "CommonJS",         /* Sistema de módulos para Node.js */
+    "rootDir": "./src",           /* Dónde está tu código fuente */
+    "outDir": "./dist",           /* Dónde se guardará el código compilado */
+    "strict": true,               /* Habilita comprobaciones rigurosas */
+    "esModuleInterop": true,      /* Compatibilidad con módulos ES6/CommonJS */
+    "skipLibCheck": true,         /* Acelera la compilación omitiendo chequeo de librerías */
+    "forceConsistentCasingInFileNames": true,
+    "composite": true             /* Habilita project references */
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
