@@ -1,4 +1,4 @@
-import { ErrorData } from "../../../../src/shared/value";
+import { ErrorData } from "@shared/value";
 
 describe("ErrorData", () => {
 
