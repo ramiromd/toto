@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\mdram\\\\Proyectos\\\\toto\" -Directory)",
+      "Bash(Select-Object Name)"
+    ]
+  }
+}

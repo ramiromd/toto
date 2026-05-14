@@ -1,5 +1,5 @@
-import { DomainError } from "../../../shared/error";
-import { ErrorData, ErrorCode } from "../../../shared/value";
+import { DomainError } from "@shared/error";
+import { ErrorData, ErrorCode } from "@shared/value";
 
 /**
  * Represents errors related to Account entities in the ledger domain. 

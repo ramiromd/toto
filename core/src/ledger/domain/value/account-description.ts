@@ -1,5 +1,5 @@
-import { ErrorCode } from "../../../shared/value";
-import { AccountError } from "../error";
+import { ErrorCode } from "@shared/value";
+import { AccountError } from "@ledger/domain/error";
 
 export class AccountDescription 
 {
