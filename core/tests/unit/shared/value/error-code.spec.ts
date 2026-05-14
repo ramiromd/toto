@@ -1,4 +1,4 @@
-import { ErrorCode } from "../../../../src/shared/value";
+import { ErrorCode } from "@shared/value";
 
 describe("ErrorCode", () => {
 

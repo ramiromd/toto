@@ -1,4 +1,7 @@
 /** @type {import("jest").Config} **/
+const { pathsToModuleNameMapper } = require('ts-jest');
+const { compilerOptions } = require('./tsconfig.build.json');
+
 module.exports = {
   testEnvironment: "node",
   preset: "ts-jest",
@@ -11,4 +14,7 @@ module.exports = {
     "node_modules/(?!(uuid)/)",
   ],
   clearMocks: true,
+  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
+    prefix: '<rootDir>/src/'
+  })
 };
