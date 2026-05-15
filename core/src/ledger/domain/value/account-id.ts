@@ -1,4 +1,4 @@
-import { UuidIdentifier, ErrorCode } from "../../../shared/value";
+import { UuidIdentifier, ErrorCode } from "../../../shared/domain/value";
 import { AccountError } from "../error";
 
 export class AccountId extends UuidIdentifier

@@ -1,4 +1,4 @@
-import { ErrorData } from "@shared/value";
+import { ErrorData } from "@shared/domain/value";
 
 describe("ErrorData", () => {
 

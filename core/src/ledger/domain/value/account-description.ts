@@ -1,4 +1,4 @@
-import { ErrorCode } from "@shared/value";
+import { ErrorCode } from "@shared/domain/value";
 import { AccountError } from "@ledger/domain/error";
 
 export class AccountDescription 

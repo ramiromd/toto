@@ -1,6 +1,6 @@
 import { AccountDescription } from "@ledger/domain/value/account-description";
 import { AccountError } from "@ledger/domain/error";
-import { ErrorCode } from "@shared/value";
+import { ErrorCode } from "@shared/domain/value";
 
 describe("AccountDescription", () => {
 

@@ -1,7 +1,7 @@
 import { Account } from "@ledger/domain/entity/account";
 import { AccountId, AccountName, AccountDescription } from "@ledger/domain/value";
 import { AccountError } from "@ledger/domain/error";
-import { ErrorCode } from "@shared/value";
+import { ErrorCode } from "@shared/domain/value";
 
 describe("Account", () => {
 
